@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(224, 231, 248);
+    margin:0;
+}
+
+.box{
+    background-color:white;
+    width:640px;
+    height:640px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.grid{
+    background-color:white;
+    width:640px;
+    height:40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.cell{
+    width:40px;
+    height:40px;
+    background-color:white;
+    border-style: solid;
+    border-color: black;
+    margin:0;
+}
+
+.cell:hover{
+    background-color:rgb(230, 230, 230);
+}
+
+.button{
+    height:50px;
+    border:0;
+    background-color:yellow;
+    font-size:18px;
+    border-radius:5px;
+    margin-left:900px ;
+}
+
+.button:hover{
+    background-color:rgb(163, 161, 161);
+}
